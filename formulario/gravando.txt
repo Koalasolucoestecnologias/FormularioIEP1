@@ -1,0 +1,29 @@
+CREATE DATABASE UsuarioIeP
+
+Use UsuarioIeP
+
+
+Create Table Usuario (
+
+  IdUsuario INT
+
+, Nome varchar(80)
+
+, Sobrenome varchar(255)
+
+, Email varchar(255)
+, Idade tinyint
+
+, Celular varchar (15)
+
+, Endereço varchar (255)
+
+, NumeroEndereco varchar(30)
+
+, ComplementoEndereco varchar(55)
+
+, Cargo varchar (255)
+
+, PRIMARY KEY (IdUsuario) 
+
+) 
